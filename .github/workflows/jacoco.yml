@@ -9,6 +9,9 @@ on:
 env:
   COVERAGE_THRESHOLD: 0.8
 
+permissions:
+  pull-requests: write
+
 jobs:
   test:
     name: Coverage with JaCoCo
